@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f9ff;
+}
+
+/* Navbar */
+.navbar {
+  background: #0077ff;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.hero h2 {
+  font-size: 40px;
+  color: #0077ff;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.hero button {
+  margin-top: 20px;
+  background: #0077ff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+}
+
+.hero-images img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.about img {
+  width: 300px;
+}
+
+.about h2 {
+  color: #0077ff;
+}
+
+/* Features */
+.features {
+  text-align: center;
+  padding: 60px;
+}
+
+.features img {
+  width: 300px;
+  margin: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards div {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+/* Doctors Section */
+.doctors {
+  text-align: center;
+  padding: 60px;
+}
+
+.doctor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* FAQ */
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.faq img {
+  width: 300px;
+}
+
+/* Footer */
+footer {
+  background: #0077ff;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
